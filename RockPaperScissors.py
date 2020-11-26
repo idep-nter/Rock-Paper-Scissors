@@ -2,10 +2,10 @@ import random
 
 def main():
     """
-    Main function starts by printing intro as usual, then asks for a player's
-    move, generates opponent's move and evaluates result.
+    The main function starts by printing an intro as usual, then asks for a player's
+    move, generates opponent's move and evaluates a result.
     If it's a tie, it automatically starts over again.
-    At the end it asks player if he wants play again and if not it prints his
+    At the end it asks the player if he wants play again and if not, it prints his
     score.
     """
     intro()
@@ -35,7 +35,7 @@ Have fun!
 
 def playerMove():
     """
-    Asks player for a move and returns it after it checks if it's correct.
+    Asks the player for a move and returns it after it checks if it's correct.
     """
     moves = ['p', 'r', 's']
     while True:
@@ -80,7 +80,7 @@ def result(pMove, aiMove):
 
 def repeat():
     """
-    Asks player if he wants to repeat the game and checks if answer is correct.
+    Asks the player if he wants to repeat the game and checks if the answer is correct.
     """
     while True:
         try:
