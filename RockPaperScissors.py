@@ -22,7 +22,6 @@ def main():
             break
     print(f"Your score for today is: {score}\nBye!")
 
-
 def intro():
     print("""
 =================================
@@ -94,4 +93,6 @@ def repeat():
         except ValueError:
             print("Please enter 'y' for yes or 'n' for no.")
             continue
-
+ 
+if _name_ == '_name_':
+    main()           
