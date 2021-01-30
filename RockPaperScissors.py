@@ -94,5 +94,5 @@ def repeat():
             print("Please enter 'y' for yes or 'n' for no.")
             continue
  
-if _name_ == '_name_':
+if _name_ == '_main_':
     main()           
