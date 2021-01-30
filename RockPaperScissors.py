@@ -76,7 +76,6 @@ def result(pMove, aiMove):
     else:
         print("You have lost!")
 
-
 def repeat():
     """
     Asks the player if he wants to repeat the game and checks if the answer is correct.
